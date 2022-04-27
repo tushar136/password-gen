@@ -5,10 +5,11 @@ body {
   align-items: center;
   margin: 0;
   font-family: "Courier New", Courier, monospace;
+  background-image: url("https://wallpapercave.com/uwp/uwp1884934.jpeg");
 }
 
 .password-container {
-  background-color: pink;
+  background-color: white;
   width: 500px;
   padding: 20px;
   border-radius: 10px;
@@ -83,4 +84,42 @@ body {
 
 .active.alert-container {
   right: -300px;
+}
+.uptext {
+  font-family: Lobster;
+  font-weight: 700;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 30px;
+  right: 19px;
+  left: 1225px;
+}
+
+.btt {
+  font-family: Comfortaa;
+  font-size: 1.001rem;
+  position: absolute;
+  bottom: 10px;
+  right: 19px;
+  left: 1225px;
+}
+
+.hi {
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+  color: rgb(255, 0, 0);
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.gg {
+  position: absolute;
+  bottom: 280px;
+  left: 115px;
 }
